@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="lawn.css">
+    <title>Log In</title>
+    <style>
+        . ::after ::before{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D4ECDB;
+        }
+        .color{
+            background-color: #9124E6;
+            width: 30%;
+            height:97.5vh;
+        }
+        .images{
+            height:60%;
+            margin:20% 60%;
+        }
+        .login{
+            background-color: #F7F7F7;
+            width: 50%;
+            height: 40em;
+        }
+        .login h1{
+            font-family:Kadwa;
+        }
+        .login h2,h4{
+            font-family:Kadwa;
+        }
+        input[type="text"]{
+            padding: 10px;
+        }
+        input[type="password"]{
+            padding: 10px;
+        }
+        .round{
+            height: 35px;
+            width: 400px;
+            border-radius:15px;
+            border: 0px;
+            background-color:#D9D9D9 ;
+        }
+        button{
+            height: 35px;
+            width: 100px;
+            border-radius:15px;
+            border: 0px;
+            background-color:#FF7070;
+            color: #FFFFFF;
+        }
+        a:link,a:visited{
+            color:  #B92727;;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="color col-md-4">
+            <img src="../images/Login_img.png" class="img-fluid images"> 
+        </div>
+        <div class=" col-md-8 d-flex flex-wrap align-content-center justify-content-center">
+            <div class="login">
+                <h1 class="text-center mt-4">Log In</h1>
+                <div class="m-5">
+                    <div class="mail mb-5">
+                        <h2>Email</h2>
+                        <form>
+                            <input type="text" class="round">
+                        </form>
+                    </div>
+                    <div class="mail mb-5">
+                        <h2>Password</h2>
+                        <form>
+                            <input type="password" class="round">
+                        </form>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="mb-3"><a href="#">Forget Password?</a></h4>
+                        <button class="mb-4">Log In</button>
+                        <h4>Don't have an account?<span><a href="#">Sign Up</a></span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
