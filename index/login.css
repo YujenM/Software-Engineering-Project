@@ -5,20 +5,21 @@
 }
 body{
     background-color: #D4ECDB;
+    overflow: hidden;
 }
 .color{
     background-color: #9124E6;
     width: 30%;
-    height:97.5vh;
+    height:100vh;
 }
 .images{
-    height:60%;
-    margin:20% 55%;
+    height:50vh;
+    margin:30% 55%;
 }
 .login{
     background-color: #F7F7F7;
     width: 50%;
-    height: 40em;
+    height: 70vh;
 }
 .login h1{
     font-family:Kadwa;
