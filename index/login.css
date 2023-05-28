@@ -13,6 +13,7 @@ body{
     height: 70vh;
     margin: 8% auto;
     background: #FFFFFF;
+    font-family: kadwa;
 }
 .input{
     font-size: 16px;
@@ -30,9 +31,17 @@ body{
     width: 20vh;
     height: 2em;
     background-color:#0082CE;
+    border: none;
     border-radius: 50px;
     color: #FFFFFF;
 }
 img{
     width: 20vw;
+    margin-left:20% ;
+    
+}
+.log_img{
+    width: 30vw;
+    height: 30vh;
+    border-radius: 50px;
 }
