@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F8F8F8;
+}
+
+.parent {
+
+    width: 70vw;
+    height: 70vh;
+    margin: 8% auto;
+    background: #FFFFFF;
+}
+.input{
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+    margin-bottom: 2em;
+}
+.margin{
+    margin-top:5em;
+}
+.button{
+    width: 20vh;
+    height: 2em;
+    background-color:#0082CE;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+img{
+    width: 20vw;
+}
