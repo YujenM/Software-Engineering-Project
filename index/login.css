@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Tsukimi+Rounded:wght@500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +26,10 @@ body{
     border-bottom: 1px solid #515151;
     background: transparent;
     margin-bottom: 2em;
+}
+inputfocus{
+    outline: none;
+    border: none;
 }
 .margin{
     margin-top:5em;
