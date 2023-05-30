@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Tsukimi+Rounded:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kadwa:wght@400;700&family=Lato:wght@300&family=Tsukimi+Rounded:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +21,8 @@ a:hover{
 }
 .login-btn a{
     width:30vw;
-    font-size: 15px;
+    font-size: 20px;
+    border-radius: 15px;
     background-color: #8B177F;
 }
 /* Aslin Css */
@@ -44,8 +45,8 @@ a:hover{
     margin-top: 40px;
 }
 #sidebar h3{
-    font-family: 'Lato';
- font-style: normal;
+font-family: 'Lato';
+font-style: normal;
 font-weight: 800;
 font-size: 25px;
 letter-spacing: 0.1em;
