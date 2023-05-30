@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Tsukimi+Rounded:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.images{
+    background-image: url(../images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+.color{
+    background-color:#178B23 ;
+    /* width: 95%; */
+}
+a{
+    color: #FFFFFF;
+    width: 10vw;
+    font-size: 15px;
+    font-weight: bolder;
+    ;
+}
+a:hover{
+    color: #FFFFFF;
+}
+.login-btn a{
+    width:30vw;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #8B177F;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.welcome{
+    margin-top: 10vh;
+    width: 40vw;
+    min-height: 50vh;
+    height: 60vh;
+    background-color:rgba(182, 223, 186,.60);
+}
+.welcome-text{
+    width: 20vW;
+    height: 35vh;
+    font-size: 20px;
+}
+.des-img img{
+    width: 30vw;
+    height: 30vh;
+}
+.service{
+    background-color:#D9D9D9 ;
+    width: 20vw;
+    height: 10vh;
+    font-size: 20px;
+}
+
