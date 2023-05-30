@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Tsukimi+Rounded:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif
+}
+.color{
+    background-color:#178B23 ;
+    /* width: 95%; */
+}
+a{
+    color: #FFFFFF;
+    width: 10vw;
+    font-size: 15px;
+    font-weight: bolder;
+    ;
+}
+a:hover{
+    color: #FFFFFF;
+}
+.login-btn a{
+    width:30vw;
+    font-size: 15px;
+    background-color: #8B177F;
+}
+/* Aslin Css */
+.showcase{
+    margin: auto;
+    overflow: hidden;
+    width: 90%;
+}
+#main{
+    float: left;
+    width: 45%;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+#sidebar{
+    float: right;
+    width: 45%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 40px;
+}
+#sidebar h3{
+    font-family: 'Lato';
+ font-style: normal;
+font-weight: 800;
+font-size: 25px;
+letter-spacing: 0.1em;
+color: #178B23;
+}
+#sidebar p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    color: #432F24;
+    margin-top: 5px;
+}
+#main-footer{
+    margin-top: 40px;
+    background: #333;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+}
+
+@media(max-width:600px){
+    #main{
+        width:100%;
+        float:none;
+    }
+    #sidebar{
+        width:100%;
+        float:none;
+    }
+}
