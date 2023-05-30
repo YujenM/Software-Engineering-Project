@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Product0.css".css>
+    <title>V-Tech Soil Moisture Sensor</title>
+</head>
+<body>
+    <div class="background">
+        <div class="row">
+            <div class="col-sm-5">
+            <img src="../images/item-1.jpg" class="img-thumbnail" alt="item">
+            </div>
+            <div class="col-sm-5">
+            <h2 class="text-center">V_tech soil Moisture Sensor</h2> 
+            <p class="text-center price">Price: 12500</p>
+            <h6>Product Description</h6>
+            <p>We are offering Soil Moisture Sensor to our clients.</p>
+                <p>
+                    Features:<br>
+                &#x2022;Low power<br>
+                &#x2022;Durable<br>
+                &#x2022;High accuracy<br>
+                &#x2022;Small size<br>
+                &#x2022;Insensitive to salt<br><br>
+                Applications:<br>
+                &#x2022;Irrigation and sprinkler systems<br>
+                &#x2022;Moisture monitoring of bulk foods<br>
+                &#x2022;Rain and weather monitoring<br>
+                &#x2022;Environmental monitoring<br>
+                &#x2022;Water conservation applications<br>
+                &#x2022;Fluid level measurements</p>
+                <h6>Product Specification</h6>
+                <table>
+                    <tr>
+                        <th>Brand</th>
+                        <td>V-Tech</td>
+                    </tr>
+                    <tr>
+                        <th>Type</th>
+                        <td>Capacitive</td>
+                    </tr>
+                    <tr>
+                        <th>Temperature Range</th>
+                        <td>-40 to 85° C</td>
+                    </tr>
+                    <tr>
+                        <th>Operating Voltage</th>
+                        <td>3.3 to 20 V DC</td>
+                    </tr>
+                    <tr>
+                        <th>Output Voltage</th>
+                        <td>0 to 5 V DC</td>
+                    </tr>
+                    <tr>
+                        <th>Operating Current</th>
+                        <td>7 mA</td>
+                    </tr>
+                    <tr>
+                        <th>Interface</th>
+                        <td>PH2.54-3P</td>
+                    </tr>
+                    <tr>
+                        <th>Response Time</th>
+                        <td>1 s</td>
+                    </tr>
+                    <tr>
+                        <th>Country of Origin</th>
+                        <td>Made in India</td>
+                    </tr>
+                    <tr>
+                        <th>Minimum Order Quantity</th>
+                        <td>1 Piece</td>
+                    </tr>
+                </table>
+                <div class="quantityb mt-3 mb-3">
+                    <h5 class="mr-3">Quantity</h5>
+                    <button id="decrementBtn" class="mr-1">-</button>
+                    <input type="text" id="quantityInput" value="1">
+                    <button id="incrementBtn" class="ml-1">+</button>
+                  </div>
+                  
+                <button class="button">Buy Now</button><button class="button">Add to cart</button> 
+              </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+  const decrementBtn = document.getElementById('decrementBtn');
+  const incrementBtn = document.getElementById('incrementBtn');
+  const quantityInput = document.getElementById('quantityInput');
+
+  decrementBtn.addEventListener('click', function() {
+    let currentQuantity = parseInt(quantityInput.value);
+    if (currentQuantity > 0) {
+      quantityInput.value = currentQuantity - 1;
+    }
+  });
+
+  incrementBtn.addEventListener('click', function() {
+    let currentQuantity = parseInt(quantityInput.value);
+    quantityInput.value = currentQuantity + 1;
+  });
+});
+
+      </script>
+</body>
+</html>

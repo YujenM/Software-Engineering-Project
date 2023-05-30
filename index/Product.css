@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Tsukimi+Rounded:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif
+}
+.color{
+    background-color:#178B23 ;
+    /* width: 95%; */
+}
+body{
+    background-color: F5F5F5;
+}
+a{
+    color: #FFFFFF;
+    width: 10vw;
+    font-size: 15px;
+    font-weight: bolder;
+    ;
+}
+a:hover{
+    color: #FFFFFF;
+}
+.login-btn a{
+    width:30vw;
+    font-size: 15px;
+    background-color: #8B177F;
+}
+
+.container h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #178B23;
+}
+#main-footer{
+    margin-top: 40px;
+    background: #333;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+}
+.col-md-3 a{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 23px;
+color: #000000;
+
+}
