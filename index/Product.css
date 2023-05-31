@@ -12,10 +12,12 @@
 body{
     background-color: F5F5F5;
 }
-a{
-    color: #FFFFFF;
+.space{
+    margin: 0 5%;
+}
+li a{
     width: 10vw;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bolder;
     ;
 }
@@ -23,12 +25,13 @@ a:hover{
     color: #FFFFFF;
 }
 .login-btn a{
-    width:30vw;
+    text-decoration: none;
+    width:90px;
     font-size: 20px;
+    font-weight: bold;
     border-radius: 15px;
     background-color: #8B177F;
 }
-
 .container h2{
     font-family: 'Inter';
 font-style: normal;

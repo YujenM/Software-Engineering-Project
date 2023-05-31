@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Tsukimi+Rounded:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kadwa:wght@400;700&family=Lato:wght@300&family=Tsukimi+Rounded:wght@500&display=swap');
 *{
     margin: 0;
@@ -5,14 +6,13 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif
 }
-.color{
-    background-color:#178B23 ;
-    /* width: 95%; */
+.space{
+    margin: 0 5%;
 }
-a{
-    color: #FFFFFF;
+
+li a{
     width: 10vw;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bolder;
     ;
 }
@@ -20,8 +20,10 @@ a:hover{
     color: #FFFFFF;
 }
 .login-btn a{
-    width:30vw;
+    text-decoration: none;
+    width:90px;
     font-size: 20px;
+    font-weight: bold;
     border-radius: 15px;
     background-color: #8B177F;
 }
@@ -45,18 +47,18 @@ a:hover{
     margin-top: 40px;
 }
 #sidebar h3{
-font-family: 'Lato';
-font-style: normal;
-font-weight: 800;
-font-size: 25px;
-letter-spacing: 0.1em;
-color: #178B23;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    color: #178B23;
 }
 #sidebar p{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 0.1em;
     color: #432F24;
     margin-top: 5px;
