@@ -45,19 +45,21 @@ a:hover{
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 20vh;
 }
 .welcome{
-
+    letter-spacing: 7%;
     font-size: 20%;
     margin-top: 10vh;
-    width: 500px;
+    width: 600px;
     min-height: 50vh;
-    height: 55vh;
+    height: 45vh;
     background-color:rgba(182, 223, 186,.60);
 }
 .welcome-text{
-    width: 300px;
+    font-weight: bold;
+    letter-spacing: 7%;
+    width: 60vw;
     height: 35vh;
     font-size: 600%;
 }
