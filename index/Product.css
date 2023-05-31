@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif
 }
+body{
+    background-color: #F5F5F5;
+}
 .color{
     background-color:#178B23 ;
     /* width: 95%; */
@@ -13,7 +16,7 @@ body{
     background-color: F5F5F5;
 }
 .space{
-    margin: 0 5%;
+    margin: 0 4%;
 }
 li a{
     width: 10vw;
@@ -26,11 +29,11 @@ a:hover{
 }
 .login-btn a{
     text-decoration: none;
-    width:90px;
+    width:5vw;
     font-size: 20px;
     font-weight: bold;
     border-radius: 15px;
-    background-color: #8B177F;
+    background-color: #0082CE;
 }
 .container h2{
     font-family: 'Inter';

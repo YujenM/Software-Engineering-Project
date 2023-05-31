@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+body{
+    background-color: #F5F5F5;
+}
 .images{
     background-image: url(../images/Background.jpg);
     background-size: cover;
@@ -12,10 +15,11 @@
     background-attachment: fixed;
     background-position: center center;
     height: 100vh;
+    background-position: 80%;
     overflow: hidden;
 }
 .space{
-    margin: 0 5%;
+    margin: 0 4%;
 }
 
 li a{
@@ -29,11 +33,12 @@ a:hover{
 }
 .login-btn a{
     text-decoration: none;
-    width:90px;
+    width:5vw;
     font-size: 20px;
     font-weight: bold;
     border-radius: 15px;
-    background-color: #8B177F;
+    background-color:#0082CE;
+
 }
 
 .center{
@@ -43,20 +48,22 @@ a:hover{
     height: 100vh;
 }
 .welcome{
+
+    font-size: 20%;
     margin-top: 10vh;
-    width: 40vw;
+    width: 500px;
     min-height: 50vh;
-    height: 60vh;
+    height: 55vh;
     background-color:rgba(182, 223, 186,.60);
 }
 .welcome-text{
-    width: 20vW;
+    width: 300px;
     height: 35vh;
-    font-size: 20px;
+    font-size: 600%;
 }
 .des-img img{
-    width: 30vw;
-    height: 40vh;
+    width: 80%;
+    height: 100%;
 }
 .service{
     background-color:#D9D9D9 ;
@@ -75,14 +82,14 @@ a:hover{
     font-weight: 700;
     font-size: 25px;
 }
+
 @media(max-width:600px){
-    #main{
-        width:100%;
-        float:none;
+    .paragraph{
+        text-align: center;
+        width: 100%;
+        margin: 5% 2%;
     }
-    #sidebar{
-        width:100%;
-        float:none;
+    .welcome{
+        height: 70vh;
     }
 }
-

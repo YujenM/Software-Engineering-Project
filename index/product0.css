@@ -6,6 +6,9 @@ body{
     margin: 2.5%;
     padding: 2.5%;
 }
+body{
+    background-color: #F5F5F5;
+}
 .col-sm-5 h2{
     font-family: 'Inter';
 font-style: normal;
