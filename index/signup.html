@@ -12,42 +12,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="login.css">
-    <title>Sign Up</title>
+    <title>Log In</title>
 </head>
 <body>
-    <div>
-        <div class="parent d-flex">
-            <div class="col-md-6 mt-4">
-                <div class="text-center margin">
-                    <h1>Signup</h1>
-                    <form>
-                        <div class="input-group mt-3 justify-content-center">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"style="background-color:#FFFFFF; border: none; height: 5vh;"><i class="fa-solid fa-envelope "></i></span>
-                            </div>
-                            <div>
-                                <input type="text" placeholder="email" class="marker form-control">
-                            </div>
-                        </div>
-                        <div class="input-group mt-3 justify-content-center">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" style="background-color:#FFFFFF; border: none; height: 5vh;"><i class="fa-solid fa-lock"></i></i></span>
-                            </div>
-                            <div>
-                                <input type="password" placeholder="password" class="marker">
-                            </div>
-                        </div>
-                        <button class="button"> Signup</button>
-                    </form>
+    <div class="parent">
+        <div class="child">
+            <div class="row r-margin" style="row-gap: 10px;">
+                <div class="col-md-6 mt-5">
+                    <img src="../images/logo.jpg" alt="imaages" class="bottle">
+                    <p class="text-center">Already have an account? <a href="login.html">Login</a></p>
                 </div>
-            </div>
-            <div class="col-md-6" >
-                <div class=" margin ">
-                    <img src="../images/Login_img.png"><br>
-                    <h6 class="text-center"><a href="login.html"> I am already a member </a></h6>
+                <div class="col-md-6 mt-5">
+                    <h1 class="text-center">Sign Up</h1>
+                    <div>
+                        <form class="scale">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="text" placeholder="email" class="lofo mb-5" required><br>
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="password" class="lofo" required>
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="confirm password" class="lofo" required>
+                        </form>
+                        <button class="button">Sign up</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    
 </body>
 </html>

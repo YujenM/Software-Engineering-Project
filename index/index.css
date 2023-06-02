@@ -18,22 +18,23 @@ body{
     background-position: 80%;
     overflow: hidden;
 }
-.space{
+/* .space{
     margin: 0 4%;
-}
+} */
 
 li a{
-    width: 10vw;
+    width:100%;
     font-size: 20px;
     font-weight: bolder;
-    ;
+    line-height: 60%;
+    margin-right: 20px;
 }
 a:hover{
     color: #FFFFFF;
 }
 .login-btn a{
     text-decoration: none;
-    width:5vw;
+    width:8vw;
     font-size: 20px;
     font-weight: bold;
     border-radius: 15px;
@@ -93,5 +94,8 @@ a:hover{
     }
     .welcome{
         height: 70vh;
+    }
+    .login-btn a{
+        width: 20vw;
     }
 }
