@@ -94,4 +94,9 @@ a:hover{
     .login-btn a{
         width: 20vw;
     }
+    .welcome{
+        height: 70vh;
+    }
 }
+
+

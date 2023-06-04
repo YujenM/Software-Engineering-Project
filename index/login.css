@@ -71,7 +71,7 @@ body{
 
 .child{
     width: 70%;
-    height: 60vh;
+    height: 80vh;
     background-color: #FFFFFF;
     margin-top: 5em;
     padding: 2em;
@@ -98,7 +98,7 @@ body{
     border: none;
     border-radius: 50px;
     color: #FFFFFF;
-    margin:2% 35% ;
+    margin:2% 25% ;
 }
 .lofo{
     border: none;
@@ -108,9 +108,10 @@ body{
     margin-bottom: 1em;
 }
 
-@media(max-width: 576px) {
+@media(max-width: 900px) {
     .child{
         width: 90%;
-        height: 100vh;
+        height: 120vh;
+        margin: 1em;
     } 
 }
