@@ -36,16 +36,21 @@
 
         .login-btn a {
             text-decoration: none;
-            width: 5vw;
+            width: 8vw;
             font-size: 20px;
             font-weight: bold;
             border-radius: 15px;
             background-color: #0082ce;
         }
+        .clr{
+            background-color:#0082CE;
+            color: #D9D9D9;
+        }
         @media(max-width:600px){
         .login-btn a{
             width: 20vw;
-    }
+            }
+        }
 .images{
     background-image: url(../images/Blog.jpg);
     background-size: cover;
@@ -177,27 +182,32 @@ color: #432F24;
                 margin-bottom: 40px;
             }
 
- @media screen and (max-width: 768px) {
-  .welcome {
+    @media screen and (max-width: 768px) {
+    .welcome {
     width: 90%;
     margin-top: 15vh;
-  }
-}
+    }
+    }
 
 @media screen and (max-width: 480px) {
-  .welcome {
+    .welcome {
     width: 100%;
     margin-top: 15vh;
-  }
+    }
 
-  .welcome h3 {
+    .welcome h3 {
     font-size: 6vw;
-  }
+    }
 
-  .welcome p {
+    .welcome p {
     font-size: 3.5vw;
-  }    
-}
+    }    
+    }
+    @media(max-width:600px){
+    .login-btn a{
+        width: 20vw;
+    }
+    }
         }
     </style>
     <title>Irrigation hub</title>
@@ -206,7 +216,7 @@ color: #432F24;
     <div class="images">
     <nav class="navbar navbar-expand-lg navbar-light bg-ligh" style="background-color: #178B23;">
         <img class="navbar-brand" src="../images/logo.jpg" style="width:200px; height: 60px;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="clr navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -237,8 +247,8 @@ color: #432F24;
     
         <div class="container">
         <div class="welcome text-center">
-           <h3>What is a Smart Irrigation System?</h3>
-           <p class="font-weight-bold">Smart irrigation systems are a combination of advanced technology of sprinklers with nozzles that improve coverage and watering irrigation controllers and water conservation systems that monitor moisture-related conditions on your property and automatically adjust watering to optimal levels.</p>
+            <h3>What is a Smart Irrigation System?</h3>
+            <p class="font-weight-bold">Smart irrigation systems are a combination of advanced technology of sprinklers with nozzles that improve coverage and watering irrigation controllers and water conservation systems that monitor moisture-related conditions on your property and automatically adjust watering to optimal levels.</p>
     </div>
     </div>
     </div>

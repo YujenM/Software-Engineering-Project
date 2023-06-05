@@ -6,17 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Website Icon" type="png" href="../images/w_logo.png"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>    
+    <script src="https://kit.fontawesome.com/ecd1889ea0.js" crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             background-color: #f5f5f5;
         }
-        .space {
+        /* .space {
             margin: 0 4%;
-        }
+        } */
         li a {
             width: 10vw;
             font-size: 20px;
             font-weight: bolder;
+        }
+        .clr{
+            background-color:#0082CE;
+            color: #D9D9D9;
         }
         a:hover {
             color: #ffffff;
@@ -94,36 +103,37 @@
     <title>Irrigation Hub</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-ligh space mt-4 " style="background-color: #178B23;">
-    <img class="navbar-brand" src="../images/logo.jpg" style="width:200px; height: 60px;">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <div class="d-flex justify-content-center align-items-center" style="width: 70vw;">
-            <div>
-                <ul class="navbar-nav mr-auto mt-2">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html" style="color: #FFFFFF;">Home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html" style="color: #FFFFFF;">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Product.html" style="color: #FFFFFF;">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact" style="color: #FFFFFF;">Contact us</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #178B23;">
+            <img class="navbar-brand" src="../images/logo.jpg" style="width:200px; height: 60px;">
+            <button class="clr navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=" brgclr navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="d-flex justify-content-center align-items-center" style="width: 70vw;">
+                    <div>
+                        <ul class="navbar-nav mr-auto mt-2">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html" style="color: #FFFFFF;">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html" style="color: #FFFFFF;">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Product.html" style="color: #FFFFFF;">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index#contact" style="color: #FFFFFF;">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form-inline login-btn " >
+                    <a class="nav-item  text-center " href="login.html" style="color: #FFFFFF;">login</a>
+                </div>
             </div>
-        </div>
-        <div class="form-inline  login-btn" >
-            <a class="nav-item text-center" href="login.html" style="color: #FFFFFF;">login</a>
-        </div>
-    </div>
-</nav>
+        </nav>
     <div class="container mt-5">
+        <a href="Product.html"><button class="mb-2 mt-3" style="border: none;"><i class="fa-sharp fa-solid fa-arrow-left"></i></button></a>
         <h2 class="text-center">Order history</h2>
         <div class="row">
             <div id="main" class="col-md-3">
@@ -132,7 +142,7 @@
                     <a href="#">
                         <h6 style="color: #17458b;">- Order History</h6>
                     </a>
-                    <a href="cart.html">
+                    <a href="your_cart.html">
                         <h6 style="color: #432f24;">- Your Cart</h6>
                     </a>
                 </div>
